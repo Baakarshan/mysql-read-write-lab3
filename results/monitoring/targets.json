@@ -1,0 +1,135 @@
+{
+  "status": "success",
+  "data": {
+    "activeTargets": [
+      {
+        "discoveredLabels": {
+          "__address__": "172.31.12.145:9100",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_timeout__": "5s",
+          "job": "node",
+          "role": "app"
+        },
+        "labels": {
+          "instance": "172.31.12.145:9100",
+          "job": "node",
+          "role": "app"
+        },
+        "scrapePool": "node",
+        "scrapeUrl": "http://172.31.12.145:9100/metrics",
+        "globalUrl": "http://172.31.12.145:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2026-10-22T11:23:09.941508267Z",
+        "lastScrapeDuration": 0.010076129,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "5s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "172.31.12.231:9100",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_timeout__": "5s",
+          "job": "node",
+          "role": "db"
+        },
+        "labels": {
+          "instance": "172.31.12.231:9100",
+          "job": "node",
+          "role": "db"
+        },
+        "scrapePool": "node",
+        "scrapeUrl": "http://172.31.12.231:9100/metrics",
+        "globalUrl": "http://172.31.12.231:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2026-10-22T11:23:08.73827708Z",
+        "lastScrapeDuration": 0.01147448,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "5s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "172.31.7.102:9100",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_timeout__": "5s",
+          "job": "node",
+          "role": "monitor"
+        },
+        "labels": {
+          "instance": "172.31.7.102:9100",
+          "job": "node",
+          "role": "monitor"
+        },
+        "scrapePool": "node",
+        "scrapeUrl": "http://172.31.7.102:9100/metrics",
+        "globalUrl": "http://172.31.7.102:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2026-10-22T11:23:09.56121946Z",
+        "lastScrapeDuration": 0.01169742,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "5s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "172.31.13.146:9100",
+          "__metrics_path__": "/metrics",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_timeout__": "5s",
+          "job": "node",
+          "role": "compiler"
+        },
+        "labels": {
+          "instance": "172.31.13.146:9100",
+          "job": "node",
+          "role": "compiler"
+        },
+        "scrapePool": "node",
+        "scrapeUrl": "http://172.31.13.146:9100/metrics",
+        "globalUrl": "http://172.31.13.146:9100/metrics",
+        "lastError": "",
+        "lastScrape": "2026-10-22T11:23:09.142630059Z",
+        "lastScrapeDuration": 0.00899649,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "5s"
+      },
+      {
+        "discoveredLabels": {
+          "__address__": "172.31.12.145:18080",
+          "__metrics_path__": "/actuator/prometheus",
+          "__scheme__": "http",
+          "__scrape_interval__": "5s",
+          "__scrape_timeout__": "5s",
+          "job": "spring"
+        },
+        "labels": {
+          "instance": "172.31.12.145:18080",
+          "job": "spring"
+        },
+        "scrapePool": "spring",
+        "scrapeUrl": "http://172.31.12.145:18080/actuator/prometheus",
+        "globalUrl": "http://172.31.12.145:18080/actuator/prometheus",
+        "lastError": "",
+        "lastScrape": "2026-10-22T11:23:11.736628437Z",
+        "lastScrapeDuration": 0.002670891,
+        "health": "up",
+        "scrapeInterval": "5s",
+        "scrapeTimeout": "5s"
+      }
+    ],
+    "droppedTargets": [],
+    "droppedTargetCounts": {
+      "node": 0,
+      "spring": 0
+    }
+  }
+}

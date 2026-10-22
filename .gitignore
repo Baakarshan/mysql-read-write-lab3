@@ -1,0 +1,14 @@
+.DS_Store
+.env
+*.env
+!*.env.example
+.venv/
+__pycache__/
+**/target/
+*.jar
+*.tar
+*.tar.gz
+!data/*.jtl.gz
+# Original CSV files are losslessly compressed in the public Git repository.
+data/*.jtl
+results/measured/

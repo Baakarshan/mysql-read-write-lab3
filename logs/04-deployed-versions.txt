@@ -1,0 +1,58 @@
+HOST=compiler
+$ hostname; docker images --digests --format "{{.Repository}} {{.Tag}} {{.Digest}} {{.ID}}"; docker ps --format "{{.Names}} {{.Image}}"; free -m
+course-compiler
+xmu-javaee/productdemoaop 0.0.1-SNAPSHOT <none> 706fe4766fe9
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/openjdk 21-alpine sha256:cab51c50750848d1f3da11f57d9994be445db7bf06d2916408fac65ad389469b 97eace17eebd
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter latest sha256:7bcf2839f207d926b908cd3c566c9f1577efb72268062be0c96cd3b17a5cb283 696e69e899e0
+lab3-node-exporter swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter:latest
+              total        used        free      shared  buff/cache   available
+Mem:            792         419          72           7         300         243
+Swap:             0           0           0
+
+EXIT=0
+
+HOST=app
+$ hostname; docker images --digests --format "{{.Repository}} {{.Tag}} {{.Digest}} {{.ID}}"; docker ps --format "{{.Names}} {{.Image}}"; free -m
+course-node2
+xmu-javaee/productdemoaop 0.0.1-SNAPSHOT <none> 706fe4766fe9
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/openjdk 21-alpine <none> 97eace17eebd
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter latest sha256:7bcf2839f207d926b908cd3c566c9f1577efb72268062be0c96cd3b17a5cb283 696e69e899e0
+lab3-productdemoaop xmu-javaee/productdemoaop:0.0.1-SNAPSHOT
+lab3-node-exporter swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter:latest
+              total        used        free      shared  buff/cache   available
+Mem:            792         517          63           7         211         146
+Swap:             0           0           0
+
+EXIT=0
+
+HOST=db
+$ hostname; docker images --digests --format "{{.Repository}} {{.Tag}} {{.Digest}} {{.ID}}"; docker ps --format "{{.Names}} {{.Image}}"; free -m
+course-node1
+swr.cn-north-4.myhuaweicloud.com/ooad-feidudu/productdemojpa <none> sha256:8313711fd0a26489d30c61c80b51459c18eb3d11e78aa1a6b5a342aff2f0bc10 4b2c056fbbb3
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter latest sha256:7bcf2839f207d926b908cd3c566c9f1577efb72268062be0c96cd3b17a5cb283 696e69e899e0
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/mysql <none> sha256:2628694417009017902fb7c7036c6c45eef9d59587ddaa50dd2414d9ac59533c 567107cb6971
+lab3-node-exporter swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter:latest
+lab_mysql.1.kiaa2jzz5bcrdi5nv96oy2qsf swr.cn-north-4.myhuaweicloud.com/oomall-javaee/mysql:latest
+              total        used        free      shared  buff/cache   available
+Mem:           1800         803          89           8         907         824
+Swap:             0           0           0
+
+EXIT=0
+
+HOST=monitor
+$ hostname; docker images --digests --format "{{.Repository}} {{.Tag}} {{.Digest}} {{.ID}}"; docker ps --format "{{.Names}} {{.Image}}"; free -m
+course-manager
+xmu-javaee/productdemojpa 0.0.1-SNAPSHOT <none> 9f2aa4f3656d
+swr.cn-north-4.myhuaweicloud.com/ooad-feidudu/productdemojpa 0.0.1-SNAPSHOT sha256:8313711fd0a26489d30c61c80b51459c18eb3d11e78aa1a6b5a342aff2f0bc10 4b2c056fbbb3
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/openjdk 21-alpine sha256:cab51c50750848d1f3da11f57d9994be445db7bf06d2916408fac65ad389469b 97eace17eebd
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/prometheus latest sha256:6573196e5dbe834779ac4d34cb053113cc502a69e9e20ba3be96d37f33e81545 a683da769912
+swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter latest sha256:7bcf2839f207d926b908cd3c566c9f1577efb72268062be0c96cd3b17a5cb283 696e69e899e0
+lab3-prometheus swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/prometheus:latest
+lab3-node-exporter swr.cn-north-4.myhuaweicloud.com/oomall-javaee/prom/node-exporter:latest
+lab_productdemojpa.1.btmob26kyvc2s5tcenhuvznc9 swr.cn-north-4.myhuaweicloud.com/ooad-feidudu/productdemojpa:0.0.1-SNAPSHOT
+              total        used        free      shared  buff/cache   available
+Mem:           1800         657          95           8        1047         971
+Swap:             0           0           0
+
+EXIT=0
+

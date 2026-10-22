@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "ReadProduct",
+    "threads": 1,
+    "repeats": 3,
+    "samples": 177889,
+    "errors": 0,
+    "throughput_mean_rps": 988.27,
+    "throughput_sd_rps": 16.69,
+    "mean_latency_ms": 0.92,
+    "p95_mean_ms": 1,
+    "p99_mean_ms": 1.33
+  },
+  {
+    "kind": "ReadProduct",
+    "threads": 10,
+    "repeats": 3,
+    "samples": 699208,
+    "errors": 0,
+    "throughput_mean_rps": 3884.49,
+    "throughput_sd_rps": 46.64,
+    "mean_latency_ms": 2.46,
+    "p95_mean_ms": 4,
+    "p99_mean_ms": 6.33
+  },
+  {
+    "kind": "ReadProduct",
+    "threads": 50,
+    "repeats": 3,
+    "samples": 754242,
+    "errors": 0,
+    "throughput_mean_rps": 4190.23,
+    "throughput_sd_rps": 32.3,
+    "mean_latency_ms": 11.79,
+    "p95_mean_ms": 37,
+    "p99_mean_ms": 60.33
+  },
+  {
+    "kind": "ReadProduct",
+    "threads": 100,
+    "repeats": 3,
+    "samples": 714590,
+    "errors": 0,
+    "throughput_mean_rps": 3969.94,
+    "throughput_sd_rps": 49.72,
+    "mean_latency_ms": 24.4,
+    "p95_mean_ms": 92.67,
+    "p99_mean_ms": 186.33
+  },
+  {
+    "kind": "WriteProduct",
+    "threads": 1,
+    "repeats": 3,
+    "samples": 36911,
+    "errors": 0,
+    "throughput_mean_rps": 205.06,
+    "throughput_sd_rps": 3.95,
+    "mean_latency_ms": 4.75,
+    "p95_mean_ms": 6,
+    "p99_mean_ms": 7
+  },
+  {
+    "kind": "WriteProduct",
+    "threads": 10,
+    "repeats": 3,
+    "samples": 223459,
+    "errors": 0,
+    "throughput_mean_rps": 1241.44,
+    "throughput_sd_rps": 24.29,
+    "mean_latency_ms": 7.95,
+    "p95_mean_ms": 10.67,
+    "p99_mean_ms": 12.33
+  },
+  {
+    "kind": "WriteProduct",
+    "threads": 50,
+    "repeats": 3,
+    "samples": 314462,
+    "errors": 0,
+    "throughput_mean_rps": 1747.01,
+    "throughput_sd_rps": 8.71,
+    "mean_latency_ms": 28.49,
+    "p95_mean_ms": 56,
+    "p99_mean_ms": 79
+  },
+  {
+    "kind": "WriteProduct",
+    "threads": 100,
+    "repeats": 3,
+    "samples": 306777,
+    "errors": 0,
+    "throughput_mean_rps": 1704.32,
+    "throughput_sd_rps": 25.6,
+    "mean_latency_ms": 58.55,
+    "p95_mean_ms": 143.67,
+    "p99_mean_ms": 194.33
+  }
+]

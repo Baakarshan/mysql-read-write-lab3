@@ -1,0 +1,223 @@
+2026-10-22 18:57:37,538 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-22 18:57:37,551 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-10-22 18:57:37,552 INFO o.a.j.JMeter: Loading system properties from: /opt/lab3/tools/apache-jmeter-5.6.3/bin/system.properties
+2026-10-22 18:57:37,552 INFO o.a.j.JMeter: Loading additional properties from: user.properties
+2026-10-22 18:57:37,552 INFO o.a.j.JMeter: Setting JMeter property: threads=50
+2026-10-22 18:57:37,552 INFO o.a.j.JMeter: Setting JMeter property: duration=65
+2026-10-22 18:57:37,552 INFO o.a.j.JMeter: Setting JMeter property: ramp=5
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: java.version=21.0.2
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: os.name=Linux
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: os.version=4.15.0-213-generic
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: Max memory     =268435456
+2026-10-22 18:57:37,556 INFO o.a.j.JMeter: Available Processors =2
+2026-10-22 18:57:37,563 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-22 18:57:37,563 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-22 18:57:37,563 INFO o.a.j.JMeter: JMeterHome=/opt/lab3/tools/apache-jmeter-5.6.3
+2026-10-22 18:57:37,563 INFO o.a.j.JMeter: user.dir  =/opt/lab3/jmeter
+2026-10-22 18:57:37,563 INFO o.a.j.JMeter: PWD       =/opt/lab3/jmeter
+2026-10-22 18:57:37,564 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: course-compiler FullName: localhost.vm
+2026-10-22 18:57:37,573 INFO o.a.j.s.FileServer: Default base='/opt/lab3/jmeter'
+2026-10-22 18:57:37,574 INFO o.a.j.s.FileServer: Set new base='/opt/lab3/jmeter'
+2026-10-22 18:57:37,783 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-22 18:57:37,814 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-22 18:57:37,819 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-22 18:57:37,825 INFO o.a.j.s.SaveService: Loading file: ReadProduct.jmx
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-22 18:57:37,875 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-22 18:57:37,901 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-22 18:57:37,927 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-22 18:57:37,928 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-22 18:57:37,928 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-22 18:57:37,931 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-22 18:57:37,931 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-22 18:57:38,158 INFO o.a.j.JMeter: Running test (1792666658158)
+2026-10-22 18:57:38,186 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
+2026-10-22 18:57:38,186 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group 线程组.
+2026-10-22 18:57:38,186 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-22 18:57:38,186 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=5 delayedStart=false
+2026-10-22 18:57:38,198 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
+2026-10-22 18:57:38,199 INFO o.a.j.s.FileServer: Stored: products.csv
+2026-10-22 18:57:38,219 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = course-compiler
+2026-10-22 18:57:38,226 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-22 18:57:38,227 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-22 18:57:38,227 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-22 18:57:38,227 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-22 18:57:38,227 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-22 18:57:38,298 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-2
+2026-10-22 18:57:38,353 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-22 18:57:38,353 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-22 18:57:38,397 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-3
+2026-10-22 18:57:38,496 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-4
+2026-10-22 18:57:38,593 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-5
+2026-10-22 18:57:38,694 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-6
+2026-10-22 18:57:38,794 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-7
+2026-10-22 18:57:38,888 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-8
+2026-10-22 18:57:38,989 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-9
+2026-10-22 18:57:39,090 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-10
+2026-10-22 18:57:39,190 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-11
+2026-10-22 18:57:39,289 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-12
+2026-10-22 18:57:39,398 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-13
+2026-10-22 18:57:39,491 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-14
+2026-10-22 18:57:39,594 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-15
+2026-10-22 18:57:39,695 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-16
+2026-10-22 18:57:39,799 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-17
+2026-10-22 18:57:39,895 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-18
+2026-10-22 18:57:39,999 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-19
+2026-10-22 18:57:40,003 INFO o.a.j.r.Summariser: summary +   1878 in 00:00:02 = 1019.5/s Avg:     6 Min:     1 Max:    67 Err:     0 (0.00%) Active: 19 Started: 19 Finished: 0
+2026-10-22 18:57:40,093 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-20
+2026-10-22 18:57:40,191 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-21
+2026-10-22 18:57:40,297 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-22
+2026-10-22 18:57:40,392 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-23
+2026-10-22 18:57:40,492 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-24
+2026-10-22 18:57:40,595 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-25
+2026-10-22 18:57:40,697 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-26
+2026-10-22 18:57:40,788 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-27
+2026-10-22 18:57:40,888 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-28
+2026-10-22 18:57:40,988 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-29
+2026-10-22 18:57:41,088 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-30
+2026-10-22 18:57:41,188 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-31
+2026-10-22 18:57:41,288 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-32
+2026-10-22 18:57:41,388 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-33
+2026-10-22 18:57:41,487 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-34
+2026-10-22 18:57:41,588 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-35
+2026-10-22 18:57:41,689 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-36
+2026-10-22 18:57:41,788 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-37
+2026-10-22 18:57:41,888 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-38
+2026-10-22 18:57:41,988 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-39
+2026-10-22 18:57:42,090 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-40
+2026-10-22 18:57:42,188 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-41
+2026-10-22 18:57:42,288 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-42
+2026-10-22 18:57:42,389 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-43
+2026-10-22 18:57:42,496 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-44
+2026-10-22 18:57:42,591 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-45
+2026-10-22 18:57:42,695 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-46
+2026-10-22 18:57:42,788 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-47
+2026-10-22 18:57:42,895 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-48
+2026-10-22 18:57:42,997 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-49
+2026-10-22 18:57:43,090 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-50
+2026-10-22 18:57:50,000 INFO o.a.j.r.Summariser: summary +  37996 in 00:00:10 = 3799.6/s Avg:    11 Min:     1 Max:   164 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:57:50,000 INFO o.a.j.r.Summariser: summary =  39874 in 00:00:12 = 3367.2/s Avg:    10 Min:     1 Max:   164 Err:     0 (0.00%)
+2026-10-22 18:58:00,001 INFO o.a.j.r.Summariser: summary +  42063 in 00:00:10 = 4206.3/s Avg:    11 Min:     1 Max:   154 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:58:00,001 INFO o.a.j.r.Summariser: summary =  81937 in 00:00:22 = 3751.4/s Avg:    11 Min:     1 Max:   164 Err:     0 (0.00%)
+2026-10-22 18:58:10,000 INFO o.a.j.r.Summariser: summary +  41859 in 00:00:10 = 4185.9/s Avg:    11 Min:     1 Max:   156 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:58:10,000 INFO o.a.j.r.Summariser: summary = 123796 in 00:00:32 = 3887.8/s Avg:    11 Min:     1 Max:   164 Err:     0 (0.00%)
+2026-10-22 18:58:20,000 INFO o.a.j.r.Summariser: summary +  42244 in 00:00:10 = 4224.4/s Avg:    11 Min:     1 Max:   168 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:58:20,000 INFO o.a.j.r.Summariser: summary = 166040 in 00:00:42 = 3968.3/s Avg:    11 Min:     1 Max:   168 Err:     0 (0.00%)
+2026-10-22 18:58:30,000 INFO o.a.j.r.Summariser: summary +  42380 in 00:00:10 = 4238.0/s Avg:    11 Min:     1 Max:   166 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:58:30,000 INFO o.a.j.r.Summariser: summary = 208420 in 00:00:52 = 4020.3/s Avg:    11 Min:     1 Max:   168 Err:     0 (0.00%)
+2026-10-22 18:58:40,003 INFO o.a.j.r.Summariser: summary +  42652 in 00:00:10 = 4264.3/s Avg:    11 Min:     1 Max:   170 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2026-10-22 18:58:40,003 INFO o.a.j.r.Summariser: summary = 251072 in 00:01:02 = 4059.8/s Avg:    11 Min:     1 Max:   170 Err:     0 (0.00%)
+2026-10-22 18:58:43,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-1
+2026-10-22 18:58:43,191 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
+2026-10-22 18:58:43,206 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-4
+2026-10-22 18:58:43,206 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-4
+2026-10-22 18:58:43,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-2
+2026-10-22 18:58:43,209 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-2
+2026-10-22 18:58:43,211 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-3
+2026-10-22 18:58:43,212 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-3
+2026-10-22 18:58:43,214 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-5
+2026-10-22 18:58:43,214 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-5
+2026-10-22 18:58:43,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-6
+2026-10-22 18:58:43,218 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-6
+2026-10-22 18:58:43,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-7
+2026-10-22 18:58:43,222 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-7
+2026-10-22 18:58:43,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-8
+2026-10-22 18:58:43,224 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-8
+2026-10-22 18:58:43,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-9
+2026-10-22 18:58:43,227 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-9
+2026-10-22 18:58:43,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-13
+2026-10-22 18:58:43,232 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-13
+2026-10-22 18:58:43,236 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-11
+2026-10-22 18:58:43,236 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-11
+2026-10-22 18:58:43,239 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-10
+2026-10-22 18:58:43,239 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-10
+2026-10-22 18:58:43,241 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-15
+2026-10-22 18:58:43,241 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-15
+2026-10-22 18:58:43,242 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-16
+2026-10-22 18:58:43,242 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-16
+2026-10-22 18:58:43,242 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-14
+2026-10-22 18:58:43,242 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-14
+2026-10-22 18:58:43,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-12
+2026-10-22 18:58:43,256 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-12
+2026-10-22 18:58:43,258 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-18
+2026-10-22 18:58:43,258 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-18
+2026-10-22 18:58:43,277 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-21
+2026-10-22 18:58:43,277 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-21
+2026-10-22 18:58:43,281 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-20
+2026-10-22 18:58:43,281 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-20
+2026-10-22 18:58:43,283 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-19
+2026-10-22 18:58:43,283 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-19
+2026-10-22 18:58:43,284 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-17
+2026-10-22 18:58:43,284 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-17
+2026-10-22 18:58:43,285 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-22
+2026-10-22 18:58:43,285 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-22
+2026-10-22 18:58:43,289 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-23
+2026-10-22 18:58:43,289 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-23
+2026-10-22 18:58:43,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-24
+2026-10-22 18:58:43,290 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-24
+2026-10-22 18:58:43,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-25
+2026-10-22 18:58:43,297 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-25
+2026-10-22 18:58:43,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-27
+2026-10-22 18:58:43,309 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-27
+2026-10-22 18:58:43,310 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-28
+2026-10-22 18:58:43,311 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-28
+2026-10-22 18:58:43,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-30
+2026-10-22 18:58:43,311 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-30
+2026-10-22 18:58:43,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-32
+2026-10-22 18:58:43,312 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-32
+2026-10-22 18:58:43,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-36
+2026-10-22 18:58:43,312 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-36
+2026-10-22 18:58:43,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-37
+2026-10-22 18:58:43,313 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-37
+2026-10-22 18:58:43,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-33
+2026-10-22 18:58:43,313 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-33
+2026-10-22 18:58:43,313 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-35
+2026-10-22 18:58:43,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-31
+2026-10-22 18:58:43,314 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-31
+2026-10-22 18:58:43,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-29
+2026-10-22 18:58:43,314 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-29
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-40
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-40
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-39
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-39
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-38
+2026-10-22 18:58:43,315 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-38
+2026-10-22 18:58:43,314 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-35
+2026-10-22 18:58:43,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-42
+2026-10-22 18:58:43,317 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-42
+2026-10-22 18:58:43,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-41
+2026-10-22 18:58:43,317 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-41
+2026-10-22 18:58:43,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-26
+2026-10-22 18:58:43,318 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-26
+2026-10-22 18:58:43,319 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-43
+2026-10-22 18:58:43,319 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-43
+2026-10-22 18:58:43,320 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-34
+2026-10-22 18:58:43,320 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-34
+2026-10-22 18:58:43,320 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-44
+2026-10-22 18:58:43,320 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-44
+2026-10-22 18:58:43,326 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-45
+2026-10-22 18:58:43,326 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-45
+2026-10-22 18:58:43,329 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-46
+2026-10-22 18:58:43,330 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-46
+2026-10-22 18:58:43,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-48
+2026-10-22 18:58:43,337 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-48
+2026-10-22 18:58:43,338 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-47
+2026-10-22 18:58:43,338 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-47
+2026-10-22 18:58:43,345 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-49
+2026-10-22 18:58:43,345 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-49
+2026-10-22 18:58:43,351 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 线程组 1-50
+2026-10-22 18:58:43,351 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-50
+2026-10-22 18:58:43,351 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-22 18:58:43,351 INFO o.a.j.s.FileServer: Close: products.csv
+2026-10-22 18:58:43,354 INFO o.a.j.r.Summariser: summary +  14282 in 00:00:03 = 4260.7/s Avg:    11 Min:     1 Max:   118 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2026-10-22 18:58:43,354 INFO o.a.j.r.Summariser: summary = 265354 in 00:01:05 = 4070.1/s Avg:    11 Min:     1 Max:   170 Err:     0 (0.00%)

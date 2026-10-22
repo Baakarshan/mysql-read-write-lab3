@@ -1,0 +1,359 @@
+2026-10-22 19:17:57,393 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Loading system properties from: /opt/lab3/tools/apache-jmeter-5.6.3/bin/system.properties
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Loading additional properties from: user.properties
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Setting JMeter property: threads=100
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Setting JMeter property: duration=10
+2026-10-22 19:17:57,406 INFO o.a.j.JMeter: Setting JMeter property: ramp=2
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: java.version=21.0.2
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: os.name=Linux
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: os.version=4.15.0-213-generic
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-22 19:17:57,410 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-22 19:17:57,411 INFO o.a.j.JMeter: Max memory     =268435456
+2026-10-22 19:17:57,411 INFO o.a.j.JMeter: Available Processors =2
+2026-10-22 19:17:57,417 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-22 19:17:57,418 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-22 19:17:57,418 INFO o.a.j.JMeter: JMeterHome=/opt/lab3/tools/apache-jmeter-5.6.3
+2026-10-22 19:17:57,418 INFO o.a.j.JMeter: user.dir  =/opt/lab3/jmeter
+2026-10-22 19:17:57,418 INFO o.a.j.JMeter: PWD       =/opt/lab3/jmeter
+2026-10-22 19:17:57,418 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: course-compiler FullName: localhost.vm
+2026-10-22 19:17:57,427 INFO o.a.j.s.FileServer: Default base='/opt/lab3/jmeter'
+2026-10-22 19:17:57,428 INFO o.a.j.s.FileServer: Set new base='/opt/lab3/jmeter'
+2026-10-22 19:17:57,634 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-22 19:17:57,656 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-22 19:17:57,658 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-22 19:17:57,661 INFO o.a.j.s.SaveService: Loading file: WriteProduct.jmx
+2026-10-22 19:17:57,701 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 19:17:57,701 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 19:17:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 19:17:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-22 19:17:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-22 19:17:57,702 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-22 19:17:57,725 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-22 19:17:57,741 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-22 19:17:57,742 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-22 19:17:57,742 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-10-22 19:17:57,746 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-22 19:17:57,746 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-22 19:17:57,969 INFO o.a.j.JMeter: Running test (1792667877969)
+2026-10-22 19:17:57,994 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2026-10-22 19:17:57,994 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2026-10-22 19:17:57,994 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-22 19:17:57,994 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=2 delayedStart=false
+2026-10-22 19:17:58,001 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2026-10-22 19:17:58,015 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = course-compiler
+2026-10-22 19:17:58,017 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2026-10-22 19:17:58,020 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-22 19:17:58,022 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-22 19:17:58,022 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-22 19:17:58,023 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-22 19:17:58,023 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-22 19:17:58,038 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2026-10-22 19:17:58,060 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2026-10-22 19:17:58,080 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2026-10-22 19:17:58,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2026-10-22 19:17:58,118 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2026-10-22 19:17:58,138 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2026-10-22 19:17:58,154 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2026-10-22 19:17:58,177 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2026-10-22 19:17:58,197 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2026-10-22 19:17:58,215 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2026-10-22 19:17:58,247 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2026-10-22 19:17:58,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2026-10-22 19:17:58,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2026-10-22 19:17:58,293 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-10-22 19:17:58,293 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-22 19:17:58,311 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2026-10-22 19:17:58,324 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2026-10-22 19:17:58,346 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2026-10-22 19:17:58,357 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2026-10-22 19:17:58,386 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2026-10-22 19:17:58,404 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2026-10-22 19:17:58,416 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2026-10-22 19:17:58,439 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2026-10-22 19:17:58,457 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2026-10-22 19:17:58,480 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2026-10-22 19:17:58,502 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2026-10-22 19:17:58,519 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2026-10-22 19:17:58,539 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2026-10-22 19:17:58,555 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2026-10-22 19:17:58,579 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2026-10-22 19:17:58,602 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2026-10-22 19:17:58,619 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2026-10-22 19:17:58,638 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2026-10-22 19:17:58,658 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2026-10-22 19:17:58,678 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2026-10-22 19:17:58,701 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2026-10-22 19:17:58,716 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2026-10-22 19:17:58,735 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2026-10-22 19:17:58,756 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2026-10-22 19:17:58,780 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2026-10-22 19:17:58,814 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2026-10-22 19:17:58,817 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2026-10-22 19:17:58,838 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2026-10-22 19:17:58,866 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2026-10-22 19:17:58,881 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2026-10-22 19:17:58,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2026-10-22 19:17:58,923 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2026-10-22 19:17:58,951 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2026-10-22 19:17:58,966 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2026-10-22 19:17:58,982 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2026-10-22 19:17:59,004 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2026-10-22 19:17:59,028 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2026-10-22 19:17:59,035 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2026-10-22 19:17:59,056 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2026-10-22 19:17:59,077 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2026-10-22 19:17:59,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2026-10-22 19:17:59,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2026-10-22 19:17:59,143 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2026-10-22 19:17:59,164 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2026-10-22 19:17:59,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2026-10-22 19:17:59,198 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2026-10-22 19:17:59,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2026-10-22 19:17:59,235 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2026-10-22 19:17:59,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2026-10-22 19:17:59,275 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2026-10-22 19:17:59,296 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2026-10-22 19:17:59,315 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2026-10-22 19:17:59,335 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2026-10-22 19:17:59,355 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2026-10-22 19:17:59,415 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2026-10-22 19:17:59,429 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2026-10-22 19:17:59,435 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2026-10-22 19:17:59,442 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2026-10-22 19:17:59,455 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2026-10-22 19:17:59,500 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2026-10-22 19:17:59,512 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2026-10-22 19:17:59,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2026-10-22 19:17:59,553 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2026-10-22 19:17:59,572 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2026-10-22 19:17:59,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2026-10-22 19:17:59,612 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2026-10-22 19:17:59,631 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2026-10-22 19:17:59,652 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2026-10-22 19:17:59,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2026-10-22 19:17:59,691 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2026-10-22 19:17:59,712 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2026-10-22 19:17:59,731 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2026-10-22 19:17:59,734 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2026-10-22 19:17:59,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2026-10-22 19:17:59,790 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2026-10-22 19:17:59,794 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2026-10-22 19:17:59,815 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2026-10-22 19:17:59,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2026-10-22 19:17:59,868 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2026-10-22 19:17:59,884 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2026-10-22 19:17:59,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2026-10-22 19:17:59,917 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2026-10-22 19:17:59,936 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2026-10-22 19:17:59,958 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2026-10-22 19:17:59,979 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2026-10-22 19:18:00,001 INFO o.a.j.r.Summariser: summary +   1818 in 00:00:02 =  895.1/s Avg:    33 Min:     5 Max:   155 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2026-10-22 19:18:08,004 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2
+2026-10-22 19:18:08,004 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2026-10-22 19:18:08,005 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2026-10-22 19:18:08,006 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2026-10-22 19:18:08,013 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3
+2026-10-22 19:18:08,013 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2026-10-22 19:18:08,017 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2026-10-22 19:18:08,017 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2026-10-22 19:18:08,028 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6
+2026-10-22 19:18:08,028 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2026-10-22 19:18:08,033 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-12
+2026-10-22 19:18:08,033 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2026-10-22 19:18:08,047 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10
+2026-10-22 19:18:08,047 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2026-10-22 19:18:08,051 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-13
+2026-10-22 19:18:08,051 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2026-10-22 19:18:08,054 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-15
+2026-10-22 19:18:08,054 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2026-10-22 19:18:08,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-16
+2026-10-22 19:18:08,060 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2026-10-22 19:18:08,067 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-11
+2026-10-22 19:18:08,067 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2026-10-22 19:18:08,067 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8
+2026-10-22 19:18:08,067 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2026-10-22 19:18:08,069 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5
+2026-10-22 19:18:08,069 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2026-10-22 19:18:08,071 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-21
+2026-10-22 19:18:08,071 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2026-10-22 19:18:08,074 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7
+2026-10-22 19:18:08,074 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2026-10-22 19:18:08,075 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-18
+2026-10-22 19:18:08,075 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2026-10-22 19:18:08,082 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-17
+2026-10-22 19:18:08,082 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2026-10-22 19:18:08,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9
+2026-10-22 19:18:08,087 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2026-10-22 19:18:08,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-14
+2026-10-22 19:18:08,088 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2026-10-22 19:18:08,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-22
+2026-10-22 19:18:08,089 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2026-10-22 19:18:08,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-23
+2026-10-22 19:18:08,091 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2026-10-22 19:18:08,109 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-34
+2026-10-22 19:18:08,109 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2026-10-22 19:18:08,110 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-33
+2026-10-22 19:18:08,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2026-10-22 19:18:08,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-31
+2026-10-22 19:18:08,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2026-10-22 19:18:08,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-28
+2026-10-22 19:18:08,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2026-10-22 19:18:08,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-35
+2026-10-22 19:18:08,112 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2026-10-22 19:18:08,117 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-40
+2026-10-22 19:18:08,117 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2026-10-22 19:18:08,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-39
+2026-10-22 19:18:08,127 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2026-10-22 19:18:08,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-30
+2026-10-22 19:18:08,127 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2026-10-22 19:18:08,128 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-38
+2026-10-22 19:18:08,128 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2026-10-22 19:18:08,131 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-19
+2026-10-22 19:18:08,131 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-20
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-25
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-26
+2026-10-22 19:18:08,134 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2026-10-22 19:18:08,144 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-27
+2026-10-22 19:18:08,144 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2026-10-22 19:18:08,150 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-37
+2026-10-22 19:18:08,150 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2026-10-22 19:18:08,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-32
+2026-10-22 19:18:08,151 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2026-10-22 19:18:08,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-24
+2026-10-22 19:18:08,153 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2026-10-22 19:18:08,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-29
+2026-10-22 19:18:08,153 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2026-10-22 19:18:08,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-44
+2026-10-22 19:18:08,156 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2026-10-22 19:18:08,157 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-47
+2026-10-22 19:18:08,157 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-43
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-41
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-46
+2026-10-22 19:18:08,164 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2026-10-22 19:18:08,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-36
+2026-10-22 19:18:08,168 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2026-10-22 19:18:08,169 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-42
+2026-10-22 19:18:08,169 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2026-10-22 19:18:08,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-48
+2026-10-22 19:18:08,173 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2026-10-22 19:18:08,175 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-51
+2026-10-22 19:18:08,175 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2026-10-22 19:18:08,179 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-52
+2026-10-22 19:18:08,179 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2026-10-22 19:18:08,180 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-49
+2026-10-22 19:18:08,180 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2026-10-22 19:18:08,188 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-45
+2026-10-22 19:18:08,188 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2026-10-22 19:18:08,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-53
+2026-10-22 19:18:08,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2026-10-22 19:18:08,192 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-50
+2026-10-22 19:18:08,193 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2026-10-22 19:18:08,199 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-55
+2026-10-22 19:18:08,199 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2026-10-22 19:18:08,199 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-56
+2026-10-22 19:18:08,199 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2026-10-22 19:18:08,206 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-58
+2026-10-22 19:18:08,206 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2026-10-22 19:18:08,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-59
+2026-10-22 19:18:08,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2026-10-22 19:18:08,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-57
+2026-10-22 19:18:08,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2026-10-22 19:18:08,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-54
+2026-10-22 19:18:08,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-68
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-72
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-73
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-62
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2026-10-22 19:18:08,231 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2026-10-22 19:18:08,232 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-66
+2026-10-22 19:18:08,232 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2026-10-22 19:18:08,233 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-78
+2026-10-22 19:18:08,233 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-84
+2026-10-22 19:18:08,233 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2026-10-22 19:18:08,233 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-77
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-87
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-85
+2026-10-22 19:18:08,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2026-10-22 19:18:08,235 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-79
+2026-10-22 19:18:08,235 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2026-10-22 19:18:08,240 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-71
+2026-10-22 19:18:08,241 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2026-10-22 19:18:08,243 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-60
+2026-10-22 19:18:08,243 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2026-10-22 19:18:08,243 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-70
+2026-10-22 19:18:08,243 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2026-10-22 19:18:08,243 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-69
+2026-10-22 19:18:08,244 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2026-10-22 19:18:08,244 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-81
+2026-10-22 19:18:08,244 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2026-10-22 19:18:08,244 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-67
+2026-10-22 19:18:08,244 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2026-10-22 19:18:08,245 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-83
+2026-10-22 19:18:08,245 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2026-10-22 19:18:08,247 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-65
+2026-10-22 19:18:08,247 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2026-10-22 19:18:08,248 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-75
+2026-10-22 19:18:08,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2026-10-22 19:18:08,249 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-76
+2026-10-22 19:18:08,249 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2026-10-22 19:18:08,249 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-86
+2026-10-22 19:18:08,249 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-82
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-80
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-74
+2026-10-22 19:18:08,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2026-10-22 19:18:08,254 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-92
+2026-10-22 19:18:08,254 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2026-10-22 19:18:08,255 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-90
+2026-10-22 19:18:08,255 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2026-10-22 19:18:08,255 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-61
+2026-10-22 19:18:08,255 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-64
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-63
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-89
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-88
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2026-10-22 19:18:08,256 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-93
+2026-10-22 19:18:08,257 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2026-10-22 19:18:08,257 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-91
+2026-10-22 19:18:08,257 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2026-10-22 19:18:08,263 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-94
+2026-10-22 19:18:08,263 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2026-10-22 19:18:08,280 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-95
+2026-10-22 19:18:08,280 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2026-10-22 19:18:08,284 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-97
+2026-10-22 19:18:08,284 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2026-10-22 19:18:08,286 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-96
+2026-10-22 19:18:08,286 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2026-10-22 19:18:08,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-98
+2026-10-22 19:18:08,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-99
+2026-10-22 19:18:08,288 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2026-10-22 19:18:08,288 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2026-10-22 19:18:08,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-100
+2026-10-22 19:18:08,290 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2026-10-22 19:18:08,290 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-22 19:18:08,293 INFO o.a.j.r.Summariser: summary +  14188 in 00:00:08 = 1710.8/s Avg:    57 Min:     5 Max:   380 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2026-10-22 19:18:08,293 INFO o.a.j.r.Summariser: summary =  16006 in 00:00:10 = 1550.4/s Avg:    54 Min:     5 Max:   380 Err:     0 (0.00%)

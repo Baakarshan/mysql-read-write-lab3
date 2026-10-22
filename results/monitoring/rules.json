@@ -1,0 +1,41 @@
+{
+  "status": "success",
+  "data": {
+    "groups": [
+      {
+        "name": "lab3",
+        "file": "/etc/prometheus/recording.yml",
+        "rules": [
+          {
+            "name": "spring:jvm_threads_live_threads",
+            "query": "jvm_threads_live_threads",
+            "health": "ok",
+            "evaluationTime": 0.000176559,
+            "lastEvaluation": "2026-10-22T11:23:08.18343933Z",
+            "type": "recording"
+          },
+          {
+            "name": "node:cpu_usage_percent",
+            "query": "100 * (1 - avg by (instance, role) (rate(node_cpu_seconds_total{mode=\"idle\"}[1m])))",
+            "health": "ok",
+            "evaluationTime": 0.000814691,
+            "lastEvaluation": "2026-10-22T11:23:08.183621119Z",
+            "type": "recording"
+          },
+          {
+            "name": "node:memory_usage_percent",
+            "query": "100 * (1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)",
+            "health": "ok",
+            "evaluationTime": 0.000184559,
+            "lastEvaluation": "2026-10-22T11:23:08.18444189Z",
+            "type": "recording"
+          }
+        ],
+        "interval": 5,
+        "limit": 0,
+        "evaluationTime": 0.00121207,
+        "lastEvaluation": "2026-10-22T11:23:08.183416139Z"
+      }
+    ]
+  }
+}

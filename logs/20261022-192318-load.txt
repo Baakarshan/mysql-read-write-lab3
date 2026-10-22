@@ -1,0 +1,32 @@
+HOST=compiler
+$ date -Is; tail -16 /opt/lab3/results/progress.log; tail -4 /opt/lab3/results/ReadProduct-t100-r1.console.txt; tail -4 /opt/lab3/results/WriteProduct-t100-r3.console.txt; free -m
+2026-10-22T19:23:18+08:00
+2026-10-22T19:16:33+08:00 END WriteProduct-t50-r2, database_rows=115895, inserted=111983
+2026-10-22T19:16:36+08:00 BEGIN WriteProduct-t50-r3, database_rows=3912
+2026-10-22T19:17:50+08:00 WriteProduct-t50-r3: samples=111242, errors=0
+2026-10-22T19:17:51+08:00 END WriteProduct-t50-r3, database_rows=115154, inserted=111242
+2026-10-22T19:17:54+08:00 WARMUP WriteProduct threads=100 10 seconds
+2026-10-22T19:18:12+08:00 warm-WriteProduct-100: samples=16006, errors=0
+2026-10-22T19:18:16+08:00 BEGIN WriteProduct-t100-r1, database_rows=3912
+2026-10-22T19:19:30+08:00 WriteProduct-t100-r1: samples=109416, errors=0
+2026-10-22T19:19:31+08:00 END WriteProduct-t100-r1, database_rows=113328, inserted=109416
+2026-10-22T19:19:35+08:00 BEGIN WriteProduct-t100-r2, database_rows=3912
+2026-10-22T19:20:49+08:00 WriteProduct-t100-r2: samples=111607, errors=0
+2026-10-22T19:20:50+08:00 END WriteProduct-t100-r2, database_rows=115519, inserted=111607
+2026-10-22T19:20:54+08:00 BEGIN WriteProduct-t100-r3, database_rows=3912
+2026-10-22T19:22:08+08:00 WriteProduct-t100-r3: samples=108372, errors=0
+2026-10-22T19:22:10+08:00 END WriteProduct-t100-r3, database_rows=112284, inserted=108372
+2026-10-22T19:22:11+08:00 COMPLETE: all 24 measured runs finished
+summary +   5340 in 00:00:01 = 3985.1/s Avg:    23 Min:     1 Max:   380 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+summary = 245824 in 00:01:05 = 3767.2/s Avg:    24 Min:     1 Max:   618 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 22 19:01:51 CST (1792666911341)
+... end of run
+summary +   5265 in 00:00:03 = 1568.8/s Avg:    61 Min:     4 Max:   390 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+summary = 108372 in 00:01:05 = 1658.2/s Avg:    57 Min:     4 Max:   523 Err:     0 (0.00%)
+Tidying up ...    @ 2026 Oct 22 19:22:03 CST (1792668123357)
+... end of run
+              total        used        free      shared  buff/cache   available
+Mem:            792         193         278           7         321         471
+Swap:             0           0           0
+
+EXIT=0

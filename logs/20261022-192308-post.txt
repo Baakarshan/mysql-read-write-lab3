@@ -1,0 +1,27 @@
+HOST=compiler
+$ bash /opt/lab3/smoke.sh
+2026-10-22T19:23:08+08:00
+POST /shops/10/products
+Authorization: {"id":2,"name":"lab3-admin","departId":10,"userLevel":1}
+{"name":"lab3-final-verification","originalPrice":1000,"weight":100,"barcode":"LAB3VERIFY","unit":"件","originPlace":"实验室"}
+HTTP/1.1 201 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json;charset=UTF-8
+Content-Length: 205
+Date: Thu, 22 Oct 2026 11:23:08 GMT
+
+{"data":{"id":113981,"shopId":10,"name":"lab3-final-verification","originalPrice":1000,"weight":100,"barcode":"LAB3VERIFY","unit":"件","originPlace":"实验室"},"errmsg":"Created Successfully","errno":1}
+GET /shops/10/products/113981
+HTTP/1.1 200 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Content-Type: application/json;charset=UTF-8
+Content-Length: 226
+Date: Thu, 22 Oct 2026 11:23:08 GMT
+
+{"data":{"id":113981,"shopId":10,"name":"lab3-final-verification","originalPrice":1000,"weight":100,"barcode":"LAB3VERIFY","unit":"件","originPlace":"实验室","gmtCreate":"2026-10-22T03:23:08"},"errmsg":"Success","errno":0}
+
+EXIT=0

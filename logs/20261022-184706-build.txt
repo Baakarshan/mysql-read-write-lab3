@@ -1,0 +1,34 @@
+HOST=compiler
+$ tail -9 /opt/lab3/build-clone.log; tail -9 /opt/lab3/build-core.log; tail -10 /opt/lab3/build-image.log; docker images xmu-javaee/productdemoaop
+Progress (1): 6.3/157 kBProgress (1): 16/157 kB Progress (1): 30/157 kBProgress (1): 46/157 kBProgress (1): 55/157 kBProgress (1): 71/157 kBProgress (1): 74/157 kBProgress (1): 90/157 kBProgress (1): 107/157 kBProgress (1): 113/157 kBProgress (1): 127/157 kBProgress (1): 139/157 kBProgress (1): 155/157 kBProgress (1): 157 kB                        Downloaded from huaweicloud: https://mirrors.huaweicloud.com/repository/maven/org/apache/maven/resolver/maven-resolver-api/1.9.22/maven-resolver-api-1.9.22.jar (157 kB at 5.6 MB/s)
+[INFO] Installing /opt/lab3/source/clonefactory/pom.xml to /root/.m2/repository/cn/edu/xmu/clonefactory/0.0.1-SNAPSHOT/clonefactory-0.0.1-SNAPSHOT.pom
+[INFO] Installing /opt/lab3/source/clonefactory/target/clonefactory-0.0.1-SNAPSHOT.jar to /root/.m2/repository/cn/edu/xmu/clonefactory/0.0.1-SNAPSHOT/clonefactory-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.685 s
+[INFO] Finished at: 2026-10-22T18:39:59+08:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] springaop 0.0.1-SNAPSHOT ........................... SUCCESS [  0.109 s]
+[INFO] core 0.0.5-SNAPSHOT ................................ SUCCESS [  6.884 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.956 s
+[INFO] Finished at: 2026-10-22T18:40:09+08:00
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] Detected build of image with id 706fe4766fe9
+[INFO] Building jar: /opt/lab3/source/5. SpringAOP/productdemoaop/target/productdemoaop-0.0.1-SNAPSHOT-docker-info.jar
+[INFO] Successfully built xmu-javaee/productdemoaop:0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.020 s
+[INFO] Finished at: 2026-10-22T18:41:35+08:00
+[INFO] ------------------------------------------------------------------------
+REPOSITORY                  TAG              IMAGE ID       CREATED         SIZE
+xmu-javaee/productdemoaop   0.0.1-SNAPSHOT   706fe4766fe9   5 minutes ago   393MB
+
+EXIT=0

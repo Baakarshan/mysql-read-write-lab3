@@ -1,0 +1,93 @@
+2026-10-22T18:46:26+08:00 START: sequential 1/10/50/100 threads; 3 repeats; 65s raw, discard first 5s ramp, 60s measurement
+2026-10-22T18:46:26+08:00 WARMUP ReadProduct threads=1 10 seconds
+2026-10-22T18:46:43+08:00 warm-ReadProduct-1: samples=5457, errors=0
+2026-10-22T18:46:44+08:00 BEGIN ReadProduct-t1-r1, database_rows=4365
+2026-10-22T18:48:25+08:00 ReadProduct-t1-r1: samples=61006, errors=0
+2026-10-22T18:48:26+08:00 END ReadProduct-t1-r1, database_rows=4365, inserted=0
+2026-10-22T18:48:28+08:00 BEGIN ReadProduct-t1-r2, database_rows=4365
+2026-10-22T18:49:54+08:00 START: sequential 1/10/50/100 threads; 3 repeats; 65s raw, discard first 5s ramp, 60s measurement
+2026-10-22T18:49:55+08:00 WARMUP ReadProduct threads=1 10 seconds
+2026-10-22T18:49:56+08:00 BEGIN ReadProduct-t1-r2, database_rows=4365
+2026-10-22T18:50:01+08:00 ReadProduct-t1-r2: samples=62912, errors=0
+2026-10-22T18:50:03+08:00 END ReadProduct-t1-r2, database_rows=4365, inserted=0
+2026-10-22T18:50:05+08:00 BEGIN ReadProduct-t1-r3, database_rows=4365
+2026-10-22T18:51:18+08:00 ReadProduct-t1-r3: samples=63322, errors=0
+2026-10-22T18:51:20+08:00 END ReadProduct-t1-r3, database_rows=4365, inserted=0
+2026-10-22T18:51:21+08:00 WARMUP ReadProduct threads=10 10 seconds
+2026-10-22T18:51:39+08:00 warm-ReadProduct-10: samples=26473, errors=0
+2026-10-22T18:51:41+08:00 BEGIN ReadProduct-t10-r1, database_rows=4365
+2026-10-22T18:53:01+08:00 ReadProduct-t10-r1: samples=247029, errors=0
+2026-10-22T18:53:03+08:00 END ReadProduct-t10-r1, database_rows=4365, inserted=0
+2026-10-22T18:53:04+08:00 BEGIN ReadProduct-t10-r2, database_rows=4365
+2026-10-22T18:54:24+08:00 ReadProduct-t10-r2: samples=242390, errors=0
+2026-10-22T18:54:25+08:00 END ReadProduct-t10-r2, database_rows=4365, inserted=0
+2026-10-22T18:54:27+08:00 BEGIN ReadProduct-t10-r3, database_rows=4365
+2026-10-22T18:55:46+08:00 ReadProduct-t10-r3: samples=246835, errors=0
+2026-10-22T18:55:48+08:00 END ReadProduct-t10-r3, database_rows=4365, inserted=0
+2026-10-22T18:55:49+08:00 WARMUP ReadProduct threads=50 10 seconds
+2026-10-22T18:56:07+08:00 warm-ReadProduct-50: samples=29375, errors=0
+2026-10-22T18:56:09+08:00 BEGIN ReadProduct-t50-r1, database_rows=4365
+2026-10-22T18:57:31+08:00 ReadProduct-t50-r1: samples=261453, errors=0
+2026-10-22T18:57:32+08:00 END ReadProduct-t50-r1, database_rows=4365, inserted=0
+2026-10-22T18:57:34+08:00 BEGIN ReadProduct-t50-r2, database_rows=4365
+2026-10-22T18:58:56+08:00 ReadProduct-t50-r2: samples=265354, errors=0
+2026-10-22T18:58:58+08:00 END ReadProduct-t50-r2, database_rows=4365, inserted=0
+2026-10-22T18:58:59+08:00 BEGIN ReadProduct-t50-r3, database_rows=4365
+2026-10-22T19:00:21+08:00 ReadProduct-t50-r3: samples=264366, errors=0
+2026-10-22T19:00:23+08:00 END ReadProduct-t50-r3, database_rows=4365, inserted=0
+2026-10-22T19:00:24+08:00 WARMUP ReadProduct threads=100 10 seconds
+2026-10-22T19:00:41+08:00 warm-ReadProduct-100: samples=23659, errors=0
+2026-10-22T19:00:42+08:00 BEGIN ReadProduct-t100-r1, database_rows=4365
+2026-10-22T19:02:04+08:00 ReadProduct-t100-r1: samples=245824, errors=0
+2026-10-22T19:02:05+08:00 END ReadProduct-t100-r1, database_rows=4365, inserted=0
+2026-10-22T19:02:07+08:00 BEGIN ReadProduct-t100-r2, database_rows=4365
+2026-10-22T19:03:36+08:00 ReadProduct-t100-r2: samples=252501, errors=0
+2026-10-22T19:03:37+08:00 END ReadProduct-t100-r2, database_rows=4365, inserted=0
+2026-10-22T19:03:38+08:00 BEGIN ReadProduct-t100-r3, database_rows=4365
+2026-10-22T19:05:00+08:00 ReadProduct-t100-r3: samples=248374, errors=0
+2026-10-22T19:05:06+08:00 END ReadProduct-t100-r3, database_rows=4365, inserted=0
+2026-10-22T19:05:09+08:00 WARMUP WriteProduct threads=1 10 seconds
+2026-10-22T19:05:25+08:00 warm-WriteProduct-1: samples=1545, errors=0
+2026-10-22T19:05:29+08:00 BEGIN WriteProduct-t1-r1, database_rows=3912
+2026-10-22T19:06:41+08:00 WriteProduct-t1-r1: samples=12823, errors=0
+2026-10-22T19:06:43+08:00 END WriteProduct-t1-r1, database_rows=16735, inserted=12823
+2026-10-22T19:06:47+08:00 BEGIN WriteProduct-t1-r2, database_rows=3912
+2026-10-22T19:08:00+08:00 WriteProduct-t1-r2: samples=13154, errors=0
+2026-10-22T19:08:01+08:00 END WriteProduct-t1-r2, database_rows=17066, inserted=13154
+2026-10-22T19:08:05+08:00 BEGIN WriteProduct-t1-r3, database_rows=3912
+2026-10-22T19:09:17+08:00 WriteProduct-t1-r3: samples=13348, errors=0
+2026-10-22T19:09:19+08:00 END WriteProduct-t1-r3, database_rows=17260, inserted=13348
+2026-10-22T19:09:22+08:00 WARMUP WriteProduct threads=10 10 seconds
+2026-10-22T19:09:39+08:00 warm-WriteProduct-10: samples=10887, errors=0
+2026-10-22T19:09:43+08:00 BEGIN WriteProduct-t10-r1, database_rows=3912
+2026-10-22T19:10:56+08:00 WriteProduct-t10-r1: samples=76553, errors=0
+2026-10-22T19:10:58+08:00 END WriteProduct-t10-r1, database_rows=80465, inserted=76553
+2026-10-22T19:11:01+08:00 BEGIN WriteProduct-t10-r2, database_rows=3912
+2026-10-22T19:12:15+08:00 WriteProduct-t10-r2: samples=78740, errors=0
+2026-10-22T19:12:16+08:00 END WriteProduct-t10-r2, database_rows=82652, inserted=78740
+2026-10-22T19:12:20+08:00 BEGIN WriteProduct-t10-r3, database_rows=3912
+2026-10-22T19:13:33+08:00 WriteProduct-t10-r3: samples=79372, errors=0
+2026-10-22T19:13:35+08:00 END WriteProduct-t10-r3, database_rows=83284, inserted=79372
+2026-10-22T19:13:37+08:00 WARMUP WriteProduct threads=50 10 seconds
+2026-10-22T19:13:55+08:00 warm-WriteProduct-50: samples=16798, errors=0
+2026-10-22T19:13:59+08:00 BEGIN WriteProduct-t50-r1, database_rows=3912
+2026-10-22T19:15:12+08:00 WriteProduct-t50-r1: samples=112556, errors=0
+2026-10-22T19:15:14+08:00 END WriteProduct-t50-r1, database_rows=116468, inserted=112556
+2026-10-22T19:15:17+08:00 BEGIN WriteProduct-t50-r2, database_rows=3912
+2026-10-22T19:16:31+08:00 WriteProduct-t50-r2: samples=111983, errors=0
+2026-10-22T19:16:33+08:00 END WriteProduct-t50-r2, database_rows=115895, inserted=111983
+2026-10-22T19:16:36+08:00 BEGIN WriteProduct-t50-r3, database_rows=3912
+2026-10-22T19:17:50+08:00 WriteProduct-t50-r3: samples=111242, errors=0
+2026-10-22T19:17:51+08:00 END WriteProduct-t50-r3, database_rows=115154, inserted=111242
+2026-10-22T19:17:54+08:00 WARMUP WriteProduct threads=100 10 seconds
+2026-10-22T19:18:12+08:00 warm-WriteProduct-100: samples=16006, errors=0
+2026-10-22T19:18:16+08:00 BEGIN WriteProduct-t100-r1, database_rows=3912
+2026-10-22T19:19:30+08:00 WriteProduct-t100-r1: samples=109416, errors=0
+2026-10-22T19:19:31+08:00 END WriteProduct-t100-r1, database_rows=113328, inserted=109416
+2026-10-22T19:19:35+08:00 BEGIN WriteProduct-t100-r2, database_rows=3912
+2026-10-22T19:20:49+08:00 WriteProduct-t100-r2: samples=111607, errors=0
+2026-10-22T19:20:50+08:00 END WriteProduct-t100-r2, database_rows=115519, inserted=111607
+2026-10-22T19:20:54+08:00 BEGIN WriteProduct-t100-r3, database_rows=3912
+2026-10-22T19:22:08+08:00 WriteProduct-t100-r3: samples=108372, errors=0
+2026-10-22T19:22:10+08:00 END WriteProduct-t100-r3, database_rows=112284, inserted=108372
+2026-10-22T19:22:11+08:00 COMPLETE: all 24 measured runs finished

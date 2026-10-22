@@ -1,0 +1,17 @@
+HOST=compiler
+$ hostname; date -Is; free -m; nproc; docker --version; /opt/lab3/tools/jdk-21.0.2/bin/java -version; /opt/lab3/tools/apache-maven-3.9.16/bin/mvn -v | head -3
+course-compiler
+2026-10-22T18:59:25+08:00
+              total        used        free      shared  buff/cache   available
+Mem:            792         430          71           7         290         233
+Swap:             0           0           0
+2
+Docker version 20.10.21, build 20.10.21-0ubuntu1~18.04.3
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: /opt/lab3/tools/apache-maven-3.9.16
+Java version: 17.0.7, vendor: Private Build, runtime: /usr/lib/jvm/java-17-openjdk-amd64
+openjdk version "21.0.2" 2024-01-16
+OpenJDK Runtime Environment (build 21.0.2+13-58)
+OpenJDK 64-Bit Server VM (build 21.0.2+13-58, mixed mode, sharing)
+
+EXIT=0

@@ -1,0 +1,10 @@
+groups:
+  - name: lab3
+    interval: 5s
+    rules:
+      - record: spring:jvm_threads_live_threads
+        expr: jvm_threads_live_threads
+      - record: node:cpu_usage_percent
+        expr: 100 * (1 - avg by(instance,role) (rate(node_cpu_seconds_total{mode="idle"}[1m])))
+      - record: node:memory_usage_percent
+        expr: 100 * (1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)

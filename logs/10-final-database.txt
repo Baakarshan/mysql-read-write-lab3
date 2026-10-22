@@ -1,0 +1,9 @@
+HOST=db
+$ docker exec $(docker ps -q --filter name=lab_mysql) sh -c 'MYSQL_PWD="$MYSQL_ROOT_PASSWORD" mysql -uroot -e "SELECT COUNT(*) AS original_rows FROM oomall_demo.goods_product; SELECT COUNT(*) AS final_rows FROM lab3_demo.goods_product;"'
+original_rows
+3912
+final_rows
+112285
+
+EXIT=0
+

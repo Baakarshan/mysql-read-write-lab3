@@ -1,0 +1,11 @@
+$ CREATE DATABASE lab3_demo; import course product.sql into lab3_demo (new user credential omitted)
+initial_products
+3912
+id	shop_id	name
+1550	10	欢乐家久宝桃罐头
+1551	3	欢乐家杨梅罐头
+1552	4	欢乐家蜜桔
+preserved_previous_products
+3912
+
+EXIT=0

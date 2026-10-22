@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" viewBox="0 0 736 236">
+<style>text{font-family:'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',system-ui,sans-serif;fill:#1e293b}.body{font-size:12px;text-anchor:middle}.small{font-size:10px;fill:#64748b;text-anchor:middle}</style>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 L2,4 z" fill="#64748b"/></marker></defs>
+<rect width="736" height="236" fill="white"/>
+<text x="368" y="37" text-anchor="middle" font-size="16">实验部署：请求经内网传输，监控独立采集</text>
+<!-- Top boxes: y=75, h=54, sibling gap=28. -->
+<path d="M240,102 L252,102" stroke="#64748b" fill="none" marker-end="url(#arrow)"/>
+<path d="M478,102 L490,102" stroke="#64748b" fill="none" marker-end="url(#arrow)"/>
+<path d="M368,152 L368,140" stroke="#64748b" fill="none" marker-end="url(#arrow)"/>
+<path d="M258,184 C175,184 130,184 130,140" stroke="#94a3b8" fill="none" marker-end="url(#arrow)"/>
+<path d="M478,184 C561,184 606,184 606,140" stroke="#94a3b8" fill="none" marker-end="url(#arrow)"/>
+<rect x="25" y="75" width="210" height="54" rx="8" fill="#dbeafe" stroke="#3b82f6"/>
+<rect x="263" y="75" width="210" height="54" rx="8" fill="#fef3c7" stroke="#f59e0b"/>
+<rect x="501" y="75" width="210" height="54" rx="8" fill="#d1fae5" stroke="#22c55e"/>
+<rect x="263" y="157" width="210" height="54" rx="8" fill="#f3e8ff" stroke="#a855f7"/>
+<text class="body" x="130" y="96">Compiler：Maven / JMeter</text><text class="small" x="130" y="114">172.31.13.146</text>
+<text class="body" x="368" y="96">Node2：Spring Boot / JPA</text><text class="small" x="368" y="114">172.31.12.145:18080</text>
+<text class="body" x="606" y="96">Node1：MySQL / lab3_demo</text><text class="small" x="606" y="114">172.31.12.231:3306</text>
+<text class="body" x="368" y="178">Manager：Prometheus</text><text class="small" x="368" y="196">172.31.7.102:19090</text>
+<text class="small" x="249" y="65">HTTP</text><text class="small" x="487" y="65">JDBC</text>
+<text class="small" x="130" y="211">采集节点 CPU、内存</text><text class="small" x="606" y="211">采集节点 CPU、内存</text>
+</svg>

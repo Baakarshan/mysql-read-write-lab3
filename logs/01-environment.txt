@@ -1,0 +1,58 @@
+HOST=compiler
+$ hostname; date -Is; free -m; nproc; ip -4 -o addr show scope global; docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}" 2>/dev/null; find /root /opt -maxdepth 4 -type d -name .git 2>/dev/null
+course-compiler
+2026-10-22T18:32:50+08:00
+              total        used        free      shared  buff/cache   available
+Mem:            792         130          83           7         579         535
+Swap:             0           0           0
+2
+2: eth0    inet 172.31.13.146/20 brd 172.31.15.255 scope global dynamic noprefixroute eth0\       valid_lft 315358186sec preferred_lft 315358186sec
+
+EXIT=0
+
+HOST=app
+$ hostname; date -Is; free -m; nproc; ip -4 -o addr show scope global; docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}" 2>/dev/null; find /root /opt -maxdepth 4 -type d -name .git 2>/dev/null
+course-node2
+2026-10-22T18:32:50+08:00
+              total        used        free      shared  buff/cache   available
+Mem:            792         129          89           7         573         536
+Swap:             0           0           0
+2
+2: eth0    inet 172.31.12.145/20 brd 172.31.15.255 scope global dynamic noprefixroute eth0\       valid_lft 315358185sec preferred_lft 315358185sec
+
+EXIT=0
+
+HOST=db
+$ hostname; date -Is; free -m; nproc; ip -4 -o addr show scope global; docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}" 2>/dev/null; find /root /opt -maxdepth 4 -type d -name .git 2>/dev/null
+course-node1
+2026-10-22T18:32:50+08:00
+              total        used        free      shared  buff/cache   available
+Mem:           1800         744          89           8         966         875
+Swap:             0           0           0
+2
+2: eth0    inet 172.31.12.231/20 brd 172.31.15.255 scope global dynamic noprefixroute eth0\       valid_lft 314121966sec preferred_lft 314121966sec
+3: docker0    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0\       valid_lft forever preferred_lft forever
+8: docker_gwbridge    inet 172.18.0.1/16 brd 172.18.255.255 scope global docker_gwbridge\       valid_lft forever preferred_lft forever
+NAMES                                   IMAGE                                                         PORTS
+lab_mysql.1.kiaa2jzz5bcrdi5nv96oy2qsf   swr.cn-north-4.myhuaweicloud.com/oomall-javaee/mysql:latest   3306/tcp, 33060/tcp
+/root/spring-fundamentals/.git
+
+EXIT=0
+
+HOST=monitor
+$ hostname; date -Is; free -m; nproc; ip -4 -o addr show scope global; docker ps --format "table {{.Names}}\t{{.Image}}\t{{.Ports}}" 2>/dev/null; find /root /opt -maxdepth 4 -type d -name .git 2>/dev/null
+course-manager
+2026-10-22T18:32:50+08:00
+              total        used        free      shared  buff/cache   available
+Mem:           1800         601         113           8        1086        1025
+Swap:             0           0           0
+2
+2: eth0    inet 172.31.7.102/20 brd 172.31.15.255 scope global dynamic noprefixroute eth0\       valid_lft 314121991sec preferred_lft 314121991sec
+3: docker0    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0\       valid_lft forever preferred_lft forever
+8: docker_gwbridge    inet 172.18.0.1/16 brd 172.18.255.255 scope global docker_gwbridge\       valid_lft forever preferred_lft forever
+NAMES                                            IMAGE                                                                         PORTS
+lab_productdemojpa.1.btmob26kyvc2s5tcenhuvznc9   swr.cn-north-4.myhuaweicloud.com/ooad-feidudu/productdemojpa:0.0.1-SNAPSHOT   8080/tcp
+/root/spring-fundamentals/.git
+
+EXIT=0
+

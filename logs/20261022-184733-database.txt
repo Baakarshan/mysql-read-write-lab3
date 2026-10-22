@@ -1,0 +1,13 @@
+HOST=db
+$ date -Is; docker exec $(docker ps -q --filter name=lab_mysql) sh -c 'MYSQL_PWD="$MYSQL_ROOT_PASSWORD" mysql -uroot -e "SELECT VERSION(); SELECT COUNT(*) AS original_database_rows FROM oomall_demo.goods_product; SELECT COUNT(*) AS experiment_rows FROM lab3_demo.goods_product; SELECT id,shop_id,name FROM lab3_demo.goods_product WHERE id=1550;"'
+2026-10-22T18:47:33+08:00
+VERSION()
+9.2.0
+original_database_rows
+3912
+experiment_rows
+4365
+id	shop_id	name
+1550	10	欢乐家久宝桃罐头
+
+EXIT=0
