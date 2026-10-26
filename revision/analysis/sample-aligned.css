@@ -1,0 +1,30 @@
+/* PDF sample: single column, Chinese journal layout. Local substitutes: Songti SC / Heiti SC / Kaiti SC. */
+@page { size: 184mm 260mm; margin: 22mm 15mm 18mm; @top-right { content: 'JavaEE 实验报告'; font: 9pt 'Times New Roman', 'Songti SC'; } @bottom-center { content: counter(page); font: 9pt 'Times New Roman'; } }
+@page:first { @top-right { content: none; } }
+body { font-family: 'Times New Roman','Songti SC',serif; font-size: 10.5pt; line-height: 1.55; color: #000; }
+h1 { font-family: 'Heiti SC'; font-size: 17pt; font-weight: 500; margin: 0 0 12pt; line-height: 1.4; }
+h2 { font-family: 'Heiti SC'; font-size: 12pt; margin: 15pt 0 7pt; break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 12pt 0 6pt; break-after: avoid; }
+p { margin: 4pt 0; text-align: justify; text-indent: 2em; orphans: 3; widows: 3; }
+.abstract { font-family: 'Times New Roman','Kaiti SC'; font-size: 9pt; }
+.abstract p,.keywords,.metadata { text-indent: 0; }
+.english-title { font: bold 12pt 'Times New Roman'; margin: 12pt 0 5pt; }
+.english-abstract { font: 9pt/1.45 'Times New Roman'; }
+figure { break-inside: avoid; margin: 10pt 0; text-align: center; }
+figure img { max-width: 100%; max-height: 182mm; }
+figcaption { font-size: 9pt; text-align: center; margin-top: 4pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 9pt 0; break-inside: avoid; border-top: 1pt solid; border-bottom: 1pt solid; }
+th { border-bottom: .5pt solid; }
+th,td { padding: 4pt; }
+code { font-family: Menlo,'Songti SC'; font-size: .85em; overflow-wrap: anywhere; }
+pre { white-space: pre-wrap; font-size: 8pt; line-height: 1.4; padding: 6pt; border: .5pt solid #999; break-inside: avoid; }
+a { color: #000; text-decoration: none; overflow-wrap: anywhere; }
+.stage { break-before: page; }
+.stage figure { margin-top: 12pt; margin-bottom: 12pt; }
+.stage figure img { width: 100%; height: auto; }
+.stage h4 { font-size: 10.5pt; margin: 9pt 0; }
+.final-section { break-before: page; }
+.metadata { font-family: 'Kaiti SC'; font-size: 9pt; margin: 0 0 13pt; }
+.abstract strong { font-family: 'Heiti SC'; }
+.english-abstract p { text-indent: 0; }
+h1 { font-weight: bold; }

@@ -1,0 +1,210 @@
+[
+  {
+    "source_run": "ReadProduct-t1-r1",
+    "source_page": "html/ReadProduct-t1-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/ReadProduct-t1-OverTime.png",
+    "cropped_panel": "assets/ReadProduct-t1-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "9a97c910feb81fb07f56284977dbc36c8983f57f2fdbd6650353caaff2eb4b34"
+  },
+  {
+    "source_run": "ReadProduct-t1-r1",
+    "source_page": "html/ReadProduct-t1-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/ReadProduct-t1-ResponseTimes.png",
+    "cropped_panel": "assets/ReadProduct-t1-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "f8c72fb4495565afeef7c80bc0935f4f60789a94045da7f549c8e0daa7391d57"
+  },
+  {
+    "source_run": "ReadProduct-t10-r1",
+    "source_page": "html/ReadProduct-t10-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/ReadProduct-t10-OverTime.png",
+    "cropped_panel": "assets/ReadProduct-t10-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "69bfadf0ba572300b0017226a81bc70317bbfe3c9e1681dea7a0405b50bddd6e"
+  },
+  {
+    "source_run": "ReadProduct-t10-r1",
+    "source_page": "html/ReadProduct-t10-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/ReadProduct-t10-ResponseTimes.png",
+    "cropped_panel": "assets/ReadProduct-t10-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "887dd92708f26f5cfa07f280b7a4747d535c3ec641b9708f865d19e8e446c95a"
+  },
+  {
+    "source_run": "ReadProduct-t50-r1",
+    "source_page": "html/ReadProduct-t50-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/ReadProduct-t50-OverTime.png",
+    "cropped_panel": "assets/ReadProduct-t50-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "de2e651e9875938cb14fe9f04bc9bf49e5f9b00139363002e5cd8f3073fed553"
+  },
+  {
+    "source_run": "ReadProduct-t50-r1",
+    "source_page": "html/ReadProduct-t50-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/ReadProduct-t50-ResponseTimes.png",
+    "cropped_panel": "assets/ReadProduct-t50-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "fc7dd757a4ffe4ef89919326d5361adf76f2d2a55f76c6de4da7af66b7415f02"
+  },
+  {
+    "source_run": "ReadProduct-t100-r1",
+    "source_page": "html/ReadProduct-t100-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/ReadProduct-t100-OverTime.png",
+    "cropped_panel": "assets/ReadProduct-t100-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "ebbeb5d98630cf46380100a81342e279c8120b528ec39679d761f2db4102ef02"
+  },
+  {
+    "source_run": "ReadProduct-t100-r1",
+    "source_page": "html/ReadProduct-t100-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/ReadProduct-t100-ResponseTimes.png",
+    "cropped_panel": "assets/ReadProduct-t100-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "0d2a946d47c55f8eb992cb12342151b5cf0a00291c74d4eda65858f3b74ccd7b"
+  },
+  {
+    "source_run": "WriteProduct-t1-r1",
+    "source_page": "html/WriteProduct-t1-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/WriteProduct-t1-OverTime.png",
+    "cropped_panel": "assets/WriteProduct-t1-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "f698fdfa9fb67923987d838ab06bdde24728de0f2c810f965f6f04136d5750a2"
+  },
+  {
+    "source_run": "WriteProduct-t1-r1",
+    "source_page": "html/WriteProduct-t1-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/WriteProduct-t1-ResponseTimes.png",
+    "cropped_panel": "assets/WriteProduct-t1-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "2eee4d779564a0253431e9ea1fe2ca4502cc51b26ca3c728b48c5fcbb89f8b9d"
+  },
+  {
+    "source_run": "WriteProduct-t10-r1",
+    "source_page": "html/WriteProduct-t10-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/WriteProduct-t10-OverTime.png",
+    "cropped_panel": "assets/WriteProduct-t10-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "a3800106210816235df3171516797e5b01a99d54e78a73e2ce5af24f0bcebe49"
+  },
+  {
+    "source_run": "WriteProduct-t10-r1",
+    "source_page": "html/WriteProduct-t10-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/WriteProduct-t10-ResponseTimes.png",
+    "cropped_panel": "assets/WriteProduct-t10-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "8258cdaf7f3a802f3ba67a9f6d2125136a7f907087606a80b5a5d42cb4c12268"
+  },
+  {
+    "source_run": "WriteProduct-t50-r1",
+    "source_page": "html/WriteProduct-t50-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/WriteProduct-t50-OverTime.png",
+    "cropped_panel": "assets/WriteProduct-t50-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "c4a11380481e1942afe0f4faf0ad404a4f39746c2fc7f22731d96862f06366f4"
+  },
+  {
+    "source_run": "WriteProduct-t50-r1",
+    "source_page": "html/WriteProduct-t50-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/WriteProduct-t50-ResponseTimes.png",
+    "cropped_panel": "assets/WriteProduct-t50-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "87eaeb0a1d632972dd5e9a60ee1cd2ba24b2f2909c87b72249d26ade49aabc44"
+  },
+  {
+    "source_run": "WriteProduct-t100-r1",
+    "source_page": "html/WriteProduct-t100-r1/content/pages/OverTime.html",
+    "original_screenshot": "evidence/WriteProduct-t100-OverTime.png",
+    "cropped_panel": "assets/WriteProduct-t100-time.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "ad9c53e759bc64e787ed92fa42fd635b5e48489b7d57f161b06d5e237f9adae1"
+  },
+  {
+    "source_run": "WriteProduct-t100-r1",
+    "source_page": "html/WriteProduct-t100-r1/content/pages/ResponseTimes.html",
+    "original_screenshot": "evidence/WriteProduct-t100-ResponseTimes.png",
+    "cropped_panel": "assets/WriteProduct-t100-percentiles.png",
+    "crop_pixels": [
+      264,
+      343,
+      1840,
+      872
+    ],
+    "screenshot_sha256": "a3a05a76068e0c15d30068339174445deb611965479e834c08e9ee9c433c62b9"
+  }
+]
