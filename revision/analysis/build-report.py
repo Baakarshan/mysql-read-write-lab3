@@ -131,5 +131,7 @@ parts.append('''
 ''')
 import re
 text=re.sub(r'(?<=\|)\n\n(?=\|)', '\n', '\n'.join(parts))
+text=re.sub(r'^::: ([\w-]+)$',r'<div class="\1">\n',text,flags=re.M)
+text=re.sub(r'^:::$','</div>\n',text,flags=re.M)
 (REV/'实验三实验报告-样例排版.md').write_text(text)
 print('Created report with 8 stage figures and all 24 runs accounted for.')
